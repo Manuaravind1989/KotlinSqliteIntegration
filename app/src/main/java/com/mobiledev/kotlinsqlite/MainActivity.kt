@@ -23,35 +23,5 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this, UserListActivity::class.java)
             startActivity(intent)
         }
-
-        UpdateData()
-        DeleteData()
     }
-
-
-    fun UpdateData() {
-        updateButton.setOnClickListener {
-            //            val isUpdate = helper.updateData(editid.text.toString(),
-//                    nameTV.text.toString(),
-//                    editsoyad.text.toString(), editnot.text.toString())
-//            if (isUpdate == true)
-//                Toast.makeText(this@MainActivity, "true.", Toast.LENGTH_LONG).show()
-//            else
-//                Toast.makeText(this@MainActivity, "False..", Toast.LENGTH_LONG).show()
-        }
-    }
-
-
-    fun DeleteData() {
-        deleteButton.setOnClickListener {
-
-            //  helper.deleteData(editid.text.toString())
-
-        }
-
-    }
-
-
-
-
 }

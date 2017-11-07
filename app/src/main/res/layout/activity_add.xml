@@ -55,7 +55,16 @@
         android:layout_height="45dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/button"
-        android:text="ADD"
+        android:text="Submit"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Delete"
+        android:visibility="gone"
         android:textColor="@android:color/white" />
 
 </LinearLayout>
