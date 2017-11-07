@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobiledev.kotlinsqlite.MainActivity">
+
+    <LinearLayout  android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/addButton"
+            android:layout_width="250dp"
+            android:background="@drawable/button"
+            android:layout_height="45dp"
+            android:textColor="@android:color/white"
+            android:text="Add" />
+        <Button
+            android:textColor="@android:color/white"
+            android:id="@+id/viewButton"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:background="@drawable/button"
+            android:layout_height="45dp"
+            android:text="View" />
+
+        <Button
+            android:textColor="@android:color/white"
+            android:id="@+id/updateButton"
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:layout_height="45dp"
+            android:text="Update" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/deleteButton"
+            android:layout_width="250dp"
+            android:background="@drawable/button"
+            android:layout_height="45dp"
+            android:textColor="@android:color/white"
+            android:text="Delete" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
