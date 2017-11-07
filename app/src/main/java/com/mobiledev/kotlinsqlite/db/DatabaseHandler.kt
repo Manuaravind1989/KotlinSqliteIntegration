@@ -83,7 +83,7 @@ class DatabaseHandler(context: Context) : SQLiteOpenHelper(context, DATABASE_NAM
 
 
     //Getting all user list
-    fun getAllStudentData(): ArrayList<UserInfo> {
+    fun getAllUserData(): ArrayList<UserInfo> {
         val stuList: ArrayList<UserInfo> = arrayListOf<UserInfo>()
         val cursor: Cursor = getReadableDatabase().query(TABLE_NAME, arrayOf(ID, NAME, AGE, PHONE, EMAIL), null, null, null, null, null)
         try {
